@@ -1,0 +1,79 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background:#34495e;
+    display: flex;
+    align-items: center
+}
+
+.login_container{
+    width: 300px;
+    padding: 40px;
+    margin-left:30%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    height: 10%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 10em;
+    color: aliceblue;
+    font-size: 20px;
+    border: blueviolet;
+    border-radius: 10%;
+    opacity: 0.7;
+}
+
+#username, #password, .submit{
+    margin: 40%;
+    color: black;
+    padding: 1%;
+    width: 300px;
+    border-radius: 50px;
+    margin: 20px;
+    border-style: solid;
+    border-color:#3498db;
+    font-size: 160%;
+    outline: none;
+
+}
+
+input{
+    text-align: center; 
+   
+    
+}
+
+input:focus{
+    width: 400px !important;
+    transition: 1s;
+    border-color: green;
+    border-style: none;
+}
+
+
+
+button{
+    color: black;
+    padding: 1%;
+    width: 300px;
+    border-radius: 50px;
+    margin: 20px;
+    border-style: none;
+    font-size: 160%;
+    
+}
+
+button:hover{
+    background: #89f442;
+}
+#required{
+    color:red;
+}
+
+input::placeholder{
+    font-size: 21px;
+    padding: 10%;
+}
